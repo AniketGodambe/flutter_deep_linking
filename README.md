@@ -1,16 +1,14 @@
 # flutter_deep_linking
 
-A new Flutter project.
+Deep linking concept here
 
-## Getting Started
+<b>Setup your project in firebase dashboard.</b>
 
-This project is a starting point for a Flutter application.
+For android -
+Check AndroidManifest.xml of this project. add required code for deep linkin in android.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For ios -
+1. reveal ios folder in finder and open Runner.xcworkspace in xcode.
+2. check Signing & Capabilities.
+3. Add you deep link that you generated from firebase.
+4. run "flutter run --release" to test in release mode.
